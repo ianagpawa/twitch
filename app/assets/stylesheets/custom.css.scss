@@ -1,0 +1,93 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+body{
+  background-color: #000018;
+  color: white;
+}
+
+#header{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.input{
+  width: 26%;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color:white;
+  text-decoration: underline;
+}
+
+.status-check {
+  width: 25%;
+  margin: 20px;
+}
+
+.icon {
+  border: 1px solid white;
+}
+
+.online {
+  background-color: green;
+  color: white;
+  width: 35%;
+  align: center;
+  border: 1px solid white;
+}
+
+
+
+
+.small-logo{
+  width: 47px;
+  height: 47px;
+}
+
+.online-list, .offline-list{
+  color: white;
+  height: 50px;
+  border: 1px solid white;
+}
+
+.content{
+  padding-top: 12px;
+}
+
+.status {
+  padding-top: 4px;
+  margin-left: 5px;
+}
+
+.offline {
+  background-color: grey;
+  width: 35%;
+}
+
+.deactivated{
+  width: 35%;
+  background-color: black;
+  color: red;
+
+  border: 1px solid white;
+}
+
+.deactivated-account{
+  border: 1px solid white;
+  height: 50px;
+  padding-top: 13px;
+}
+
+a{
+  color: white;
+}
+
+
+#test{
+  background-color: blue;
+  color: yellow;
+}
